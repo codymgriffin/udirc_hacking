@@ -10,7 +10,7 @@
 #define UDIRC_MSG_TYPE_STATUS    0x01
 #define UDIRC_MSG_TYPE_VIDEO     0x03
 #define UDIRC_MSG_TYPE_COMMAND   0x0a
-#define UDIRC_MSG_TYPE_STATUS2   0x0b
+#define UDIRC_MSG_TYPE_CMD_ACK   0x0b
 
 
 // A Message is the unit of transport, which is pretty much 1:1 
