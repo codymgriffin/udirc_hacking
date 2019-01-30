@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.5)
 project(udirc_example)
 set(CMAKE_CXX_STANDARD 14)
 
@@ -18,5 +18,5 @@ target_include_directories(
 target_link_libraries(
   udirc_example
  
-  PRIVATE Boost::system opencv_highgui
+  PRIVATE Boost::system opencv_imgcodecs opencv_highgui opencv_imgproc pthread
 )
